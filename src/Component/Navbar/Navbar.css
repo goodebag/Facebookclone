@@ -1,1 +1,49 @@
- 
+.navbar_Container{
+    display: flex;
+    margin-top: 10px;
+}
+.navbar_main{ 
+    border-bottom: 1px solid #eaecec;
+    
+}
+ .navbar_logo{
+    margin: 8px 10px 8px 16px ;
+ }
+
+ .navbar_left{
+     display: flex; 
+     margin-right: 50px;
+ }
+ .navbar_tabs{
+    width: 120px;
+    height: 47px;
+}
+.navbar_tabs.active{
+   border-bottom: 3px solid #1B77f2 ;
+}
+.navbar_righttab{
+    display: flex;
+}
+.navbar_right_img{
+margin-top: 15px;
+margin-right: 10px;
+max-width: 30px;
+max-height: 30px;
+}
+.navbar_right{
+}
+.navbar_profilename{ 
+    margin-top:  20px;
+   font-weight: 600;
+   
+}
+ .navbar_search{
+     height:40px;
+     width:190px;
+     border-radius: 25px; 
+     background-color: #ecf2f7;
+     padding-left:  30px; 
+     font-size: 16px;
+     border: 0px;
+     margin-top: 8px;
+ }  
